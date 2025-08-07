@@ -86,4 +86,22 @@ This document explains the process of setting up an inter-region VPC peering con
 - Done Subnet is Created
 - <img width="1897" height="859" alt="Screenshot 2025-08-06 210812" src="https://github.com/user-attachments/assets/e292f217-ad41-4202-bc8b-bc3253f4fdd6" />
 
+- Now create a Route Table
+- click route table - create route table
+<img width="1894" height="869" alt="Screenshot 2025-08-06 210905" src="https://github.com/user-attachments/assets/1c0dcf68-c865-47a9-8132-db7d6949c2ae" />
+
+- Name Route table - select VPC you create current region - click create route table
+<img width="1892" height="863" alt="Screenshot 2025-08-06 211120" src="https://github.com/user-attachments/assets/d17532a7-eadf-4742-a9d0-19395c6ca9cf" />
+
+- Now we need to Associate our subnet with route table
+- Again go to route table - select RT - subnet Associations - click Edit Subnet Association
+<img width="1892" height="863" alt="Screenshot 2025-08-06 211120" src="https://github.com/user-attachments/assets/36f553e1-4593-4d56-a9fb-986a011fbf1f" />
+
+- Select Subnet - Save association
+<img width="1893" height="866" alt="Screenshot 2025-08-06 211201" src="https://github.com/user-attachments/assets/78224db2-c071-4cb9-bf54-f7d9c7d53c8c" />
+
+- Done this subet Associated with route table
+<img width="1897" height="866" alt="Screenshot 2025-08-06 211306" src="https://github.com/user-attachments/assets/2c3f7281-74ed-4dc7-a2a0-b9a82715bc07" />
+
+
 
