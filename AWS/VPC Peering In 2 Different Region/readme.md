@@ -1,4 +1,4 @@
-# Amazon VPC (Virtual Private Cloud) Documentation
+# Amazon VPC (Virtual Private Cloud)
 ## 1. Introduction
 Amazon Virtual Private Cloud (VPC) allows you to launch AWS resources in a logically isolated network.
 It gives you full control over your network environment, including IP address ranges, subnets, route tables, and network gateways.
@@ -41,4 +41,10 @@ It gives you full control over your network environment, including IP address ra
 7. Network ACLs (NACLs) – Subnet-level firewalls.
 
 8. Endpoints – Private connections to AWS services.
+
+# Setup VPC peering Connection between 2 different region
+## 1. Objective
+This document explains the process of setting up an inter-region VPC peering connection between two VPCs located in different AWS Regions. This setup enables secure, private communication using private IP addresses between resources in different regions without traversing the public internet.
+
+## Steps to Set Up Inter-Region VPC Peering
 
