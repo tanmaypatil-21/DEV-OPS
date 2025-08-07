@@ -68,7 +68,8 @@ This document explains the process of setting up an inter-region VPC peering con
 - Done IGW is created
 
 - Now attach your IGW to your VPC - Click on attach VPC
-  <img width="1894" height="865" alt="Screenshot 2025-08-06 210328" src="https://github.com/user-attachments/assets/b9c7e6fd-e9aa-41c5-8ed5-766d222735f8" />
+ <img width="1899" height="868" alt="Screenshot 2025-08-06 210303" src="https://github.com/user-attachments/assets/0a66e910-6c54-43e5-9b97-a6df533aad8a" />
+
 
 - Select VPC you create in current region - click attach internet gateway
 <img width="1894" height="865" alt="Screenshot 2025-08-06 210328" src="https://github.com/user-attachments/assets/57f99d95-7a82-484c-a553-f5930b96d523" />
