@@ -58,3 +58,15 @@ This document explains the process of setting up an inter-region VPC peering con
 - Name VPC - mentioned IPV4 CIDR - click Create VPC
 <img width="1903" height="925" alt="Screenshot 2025-08-06 205948" src="https://github.com/user-attachments/assets/0b2d6af6-4053-4e56-ab91-7fec04c98b1e" />
 
+- Click - Create Internate Gateway
+-<img width="1895" height="862" alt="Screenshot 2025-08-06 210043" src="https://github.com/user-attachments/assets/3c3c2b26-5b83-4875-a25d-ccce737ac4e4" />
+
+-Name Internet Gateway - click - Create Internet Gateway
+<img width="1900" height="866" alt="Screenshot 2025-08-06 210218" src="https://github.com/user-attachments/assets/f533c479-63b8-483a-8749-a6fa1dbef324" />
+
+- Done IGW is created
+
+- Now attach your IGW to your VPC - Click on attach VPC
+  <img width="1894" height="865" alt="Screenshot 2025-08-06 210328" src="https://github.com/user-attachments/assets/b9c7e6fd-e9aa-41c5-8ed5-766d222735f8" />
+
+
