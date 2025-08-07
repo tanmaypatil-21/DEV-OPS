@@ -59,7 +59,7 @@ This document explains the process of setting up an inter-region VPC peering con
 <img width="1903" height="925" alt="Screenshot 2025-08-06 205948" src="https://github.com/user-attachments/assets/0b2d6af6-4053-4e56-ab91-7fec04c98b1e" />
 
 - Now Create a Internet Gateway
-- Click - Create Internate Gateway
+- Click internet gateway - Create Internate Gateway
 -<img width="1895" height="862" alt="Screenshot 2025-08-06 210043" src="https://github.com/user-attachments/assets/3c3c2b26-5b83-4875-a25d-ccce737ac4e4" />
 
 - Name Internet Gateway - click - Create Internet Gateway
@@ -102,8 +102,17 @@ This document explains the process of setting up an inter-region VPC peering con
 - Select Subnet - Save association
 <img width="1893" height="866" alt="Screenshot 2025-08-06 211201" src="https://github.com/user-attachments/assets/78224db2-c071-4cb9-bf54-f7d9c7d53c8c" />
 
-- Done this subet Associated with route table
+- Done this subnet Associated with route table
 <img width="1897" height="866" alt="Screenshot 2025-08-06 211306" src="https://github.com/user-attachments/assets/2c3f7281-74ed-4dc7-a2a0-b9a82715bc07" />
 
+- Now we need to update routes
+- go Route table - select routes - edit routes
+ <img width="1883" height="815" alt="Screenshot 2025-08-06 211350" src="https://github.com/user-attachments/assets/1a89246b-e6b7-45ae-a8a4-26699a51b27e" />
+
+ - Add routes - select 0.0.0.0/0 - select IGW and select IGW you created -save changes
+<img width="1894" height="809" alt="Screenshot 2025-08-06 211452" src="https://github.com/user-attachments/assets/08c7c2ef-f2e0-4c55-9496-3fd332e72726" />
+
+- Done RT is updated
+<img width="1893" height="866" alt="Screenshot 2025-08-06 211521" src="https://github.com/user-attachments/assets/c648bb01-0937-40e1-9af2-12df16d86335" />
 
 
