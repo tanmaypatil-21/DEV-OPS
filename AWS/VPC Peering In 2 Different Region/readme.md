@@ -58,11 +58,11 @@ This document explains the process of setting up an inter-region VPC peering con
 - Name VPC - mentioned IPV4 CIDR - click Create VPC
 <img width="1903" height="925" alt="Screenshot 2025-08-06 205948" src="https://github.com/user-attachments/assets/0b2d6af6-4053-4e56-ab91-7fec04c98b1e" />
 
--Now Create a Internet Gateway
+- Now Create a Internet Gateway
 - Click - Create Internate Gateway
 -<img width="1895" height="862" alt="Screenshot 2025-08-06 210043" src="https://github.com/user-attachments/assets/3c3c2b26-5b83-4875-a25d-ccce737ac4e4" />
 
--Name Internet Gateway - click - Create Internet Gateway
+- Name Internet Gateway - click - Create Internet Gateway
 <img width="1900" height="866" alt="Screenshot 2025-08-06 210218" src="https://github.com/user-attachments/assets/f533c479-63b8-483a-8749-a6fa1dbef324" />
 
 - Done IGW is created
@@ -73,3 +73,11 @@ This document explains the process of setting up an inter-region VPC peering con
 - Select VPC you create in current region - click attach internet gateway
 <img width="1894" height="865" alt="Screenshot 2025-08-06 210328" src="https://github.com/user-attachments/assets/57f99d95-7a82-484c-a553-f5930b96d523" />
 
+- Done internet gateway associated to VPC
+<img width="1896" height="862" alt="Screenshot 2025-08-06 210434" src="https://github.com/user-attachments/assets/80b4e2a7-6233-4022-82b7-affbb4c6b30c" />
+
+- Now create subnet
+- click subnet - create subnet - select VPC you create in current region
+<img width="1871" height="480" alt="Screenshot 2025-08-06 210648" src="https://github.com/user-attachments/assets/1b1e349c-cff0-451f-a105-5fe5f4d8f5db" />
+
+- Name Subnet - select Availability zone - 
