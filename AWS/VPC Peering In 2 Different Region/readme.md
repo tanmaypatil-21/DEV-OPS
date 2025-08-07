@@ -52,4 +52,6 @@ This document explains the process of setting up an inter-region VPC peering con
 ## 3. Steps to Set Up Inter-Region VPC Peering
 
 **1. set region for VPC A (us-south-1) and create VPC**
-<img width="1914" height="916" alt="Screenshot 2025-08-06 205718" src="https://github.com/user-attachments/assets/67729533-e92a-4fe9-abb9-881ffad120e8" />
+<img width="1914" height="916" alt="Screenshot 2025-08-06 205718" src="https://github.com/user-attachments/assets/17d27a09-5f66-49b7-9419-e11c27679126" />
+<img width="1903" height="925" alt="Screenshot 2025-08-06 205948" src="https://github.com/user-attachments/assets/0b2d6af6-4053-4e56-ab91-7fec04c98b1e" />
+
