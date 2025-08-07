@@ -34,7 +34,7 @@ It gives you full control over your network environment, including IP address ra
 
 4. Internet Gateway (IGW) – Allows communication between instances in your VPC and the internet.
 
-5. NAT Gateway – Enables private subnets to access the internet securely.
+5. NAT Gateway – Enables private subnets to access the internet securely.9
 
 6. Security Groups – Instance-level firewalls.
 
@@ -46,5 +46,9 @@ It gives you full control over your network environment, including IP address ra
 ## 1. Objective
 This document explains the process of setting up an inter-region VPC peering connection between two VPCs located in different AWS Regions. This setup enables secure, private communication using private IP addresses between resources in different regions without traversing the public internet.
 
-## Flowchart Diagram
+## 2. Flowchart Diagram
 <img width="857" height="410" alt="Screenshot 2025-08-07 003339" src="https://github.com/user-attachments/assets/ab36eea0-2f57-4b66-a335-593038e2a4cf" />
+
+## 3. Steps to Set Up Inter-Region VPC Peering
+
+**Create the Peering Connection**
