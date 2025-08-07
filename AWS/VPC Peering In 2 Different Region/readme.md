@@ -80,4 +80,10 @@ This document explains the process of setting up an inter-region VPC peering con
 - click subnet - create subnet - select VPC you create in current region
 <img width="1871" height="480" alt="Screenshot 2025-08-06 210648" src="https://github.com/user-attachments/assets/1b1e349c-cff0-451f-a105-5fe5f4d8f5db" />
 
-- Name Subnet - select Availability zone - 
+- Name Subnet - select Availability zone - mentioned IPV4 subnet CIDR block - click create subnet
+<img width="1904" height="1040" alt="Screenshot 2025-08-06 210712" src="https://github.com/user-attachments/assets/fd9831e3-7d82-4fcb-9c10-5c83b408a817" />
+
+- Done Subnet is Created
+- <img width="1897" height="859" alt="Screenshot 2025-08-06 210812" src="https://github.com/user-attachments/assets/e292f217-ad41-4202-bc8b-bc3253f4fdd6" />
+
+
