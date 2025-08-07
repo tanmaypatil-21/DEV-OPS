@@ -15,3 +15,30 @@ It gives you full control over your network environment, including IP address ra
 5. Internet & NAT Gateways – Enable internet access for public/private subnets.
 
 6. VPC Peering – Connect VPCs privately across regions or accounts.
+
+## 3. Benefits
+1. Logical network isolation
+
+2. Enhanced security with multiple layers of control
+
+3. Scalable and flexible network design
+
+3. Integration with other AWS services
+
+## 4. Components of a VPC
+1. VPC – The main network container.
+
+2. Subnets – Logical partitions of the VPC network.
+
+3. Route Tables – Define where network traffic is directed.
+
+4. Internet Gateway (IGW) – Allows communication between instances in your VPC and the internet.
+
+5. NAT Gateway – Enables private subnets to access the internet securely.
+
+6. Security Groups – Instance-level firewalls.
+
+7. Network ACLs (NACLs) – Subnet-level firewalls.
+
+8. Endpoints – Private connections to AWS services.
+
