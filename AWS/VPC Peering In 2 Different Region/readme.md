@@ -91,7 +91,8 @@ This document explains the process of setting up an inter-region VPC peering con
 <img width="1894" height="869" alt="Screenshot 2025-08-06 210905" src="https://github.com/user-attachments/assets/1c0dcf68-c865-47a9-8132-db7d6949c2ae" />
 
 - Name Route table - select VPC you create current region - click create route table
-<img width="1892" height="863" alt="Screenshot 2025-08-06 211120" src="https://github.com/user-attachments/assets/d17532a7-eadf-4742-a9d0-19395c6ca9cf" />
+<img width="1894" height="865" alt="Screenshot 2025-08-06 210955" src="https://github.com/user-attachments/assets/56dbc572-4a72-45f3-8a47-99ce9103e92a" />
+
 
 - Now we need to Associate our subnet with route table
 - Again go to route table - select RT - subnet Associations - click Edit Subnet Association
