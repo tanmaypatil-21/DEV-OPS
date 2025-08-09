@@ -106,7 +106,7 @@ This document explains the process of setting up an inter-region VPC peering con
 <img width="1897" height="866" alt="Screenshot 2025-08-06 211306" src="https://github.com/user-attachments/assets/2c3f7281-74ed-4dc7-a2a0-b9a82715bc07" />
 
 - Now we need to update routes
-- go Route table - select routes - edit routes
+- Go Route table - select routes - edit routes
  <img width="1883" height="815" alt="Screenshot 2025-08-06 211350" src="https://github.com/user-attachments/assets/1a89246b-e6b7-45ae-a8a4-26699a51b27e" />
 
  - Add routes - select 0.0.0.0/0 - select IGW and select IGW you created -save changes
@@ -115,4 +115,7 @@ This document explains the process of setting up an inter-region VPC peering con
 - Done RT is updated
 <img width="1893" height="866" alt="Screenshot 2025-08-06 211521" src="https://github.com/user-attachments/assets/c648bb01-0937-40e1-9af2-12df16d86335" />
 
+**Upto now we created VPC,Subnet,Route table & Internet gateway in US-EAST-1 region, so let's create AWS ec2 instance later**
+
+**Now jump on AP-SOUTHEAST-1 Region & let's create VPC,Subnet,Route table, & Internate gateway**
 
