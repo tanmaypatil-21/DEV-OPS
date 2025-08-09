@@ -95,7 +95,6 @@ This document explains the process of setting up an inter-region VPC peering con
 - Name Route table - select VPC you create current region - click create route table
 <img width="1894" height="865" alt="Screenshot 2025-08-06 210955" src="https://github.com/user-attachments/assets/56dbc572-4a72-45f3-8a47-99ce9103e92a" />
 
-
 - Now we need to Associate our subnet with route table
 - Again go to route table - select RT - subnet Associations - click Edit Subnet Association
 <img width="1892" height="863" alt="Screenshot 2025-08-06 211120" src="https://github.com/user-attachments/assets/36f553e1-4593-4d56-a9fb-986a011fbf1f" />
@@ -152,4 +151,36 @@ This document explains the process of setting up an inter-region VPC peering con
 
 - Select VPC you create in current region - click attach internet gateway
 <img width="1896" height="867" alt="Screenshot 2025-08-06 213025" src="https://github.com/user-attachments/assets/7a8e24dc-59a1-4028-8e82-6ae128e92f56" />
+
+- Done this IGW is Attached
+<img width="1898" height="858" alt="Screenshot 2025-08-06 213054" src="https://github.com/user-attachments/assets/cefee309-140c-4afc-b726-c100645ea9b5" />
+
+- Now create a Route Table
+- click route table - create route table
+<img width="1895" height="867" alt="Screenshot 2025-08-06 213113" src="https://github.com/user-attachments/assets/30dd9a9f-90d4-4c52-8edf-06d17ef40f68" />
+
+- Name Route table - select VPC you create current region - click create route table
+<img width="1897" height="864" alt="Screenshot 2025-08-06 213218" src="https://github.com/user-attachments/assets/cc606137-c45d-4d2d-9bea-324848ba6978" />
+
+- Now we need to Associate our subnet with route table
+- Again go to route table - select RT - subnet Associations - click Edit Subnet Association
+<img width="1889" height="860" alt="Screenshot 2025-08-06 213337" src="https://github.com/user-attachments/assets/0180be72-33f7-4c9e-bea4-58c7b70f3577" />
+
+- Select Subnet - Save association
+<img width="1898" height="865" alt="Screenshot 2025-08-06 213410" src="https://github.com/user-attachments/assets/045894b3-8463-45cc-8d55-b2255fae6d1a" />
+
+- Done this subnet Associated with route table
+<img width="1885" height="858" alt="Screenshot 2025-08-06 213440" src="https://github.com/user-attachments/assets/e775bb7f-8a1b-4856-919b-0ac7bf2e0d85" />
+
+- Now we need to update routes
+- Go Route table - select routes - edit routes
+<img width="1899" height="867" alt="Screenshot 2025-08-06 213502" src="https://github.com/user-attachments/assets/e303f2ce-79c7-4b90-b0bf-82c084fe0fb8" />
+
+- Add routes - select 0.0.0.0/0 - select IGW and select IGW you created -save changes
+<img width="1894" height="854" alt="Screenshot 2025-08-06 213543" src="https://github.com/user-attachments/assets/852adedc-29d5-4a0d-9293-bbefb3b36e60" />
+
+- Done RT is updated
+<img width="1893" height="867" alt="Screenshot 2025-08-06 213600" src="https://github.com/user-attachments/assets/10fd719a-d8f5-4cbf-a888-d949ec4de120" />
+
+
 
