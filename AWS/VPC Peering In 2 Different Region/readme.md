@@ -67,7 +67,8 @@ This document explains the process of setting up an inter-region VPC peering con
 
 - Done IGW is created
 
-- Now attach your IGW to your VPC - Click on attach VPC
+- Now attach your IGW to your VPC
+- Click on attach VPC
  <img width="1899" height="868" alt="Screenshot 2025-08-06 210303" src="https://github.com/user-attachments/assets/0a66e910-6c54-43e5-9b97-a6df533aad8a" />
 
 
@@ -124,4 +125,31 @@ This document explains the process of setting up an inter-region VPC peering con
 
 - Go to create VPC
 <img width="1897" height="871" alt="Screenshot 2025-08-09 191508" src="https://github.com/user-attachments/assets/57ec30d2-4a47-4294-8a9e-a7ff971c370f" />
+
+- Name VPC - mentioned IPV4 CIDR - click Create VPC
+<img width="1888" height="1034" alt="Screenshot 2025-08-06 212427" src="https://github.com/user-attachments/assets/18901d32-82a2-4425-815a-cbed69008591" />       
+
+- Now create subnet
+- create subnet - select VPC you create in current region
+<img width="1867" height="471" alt="Screenshot 2025-08-06 212728" src="https://github.com/user-attachments/assets/9d8cc16f-d549-4a9e-92b5-0c8d6c1bb61e" />
+
+- Name Subnet - select Availability zone - mentioned IPV4 subnet CIDR block - click create subnet
+<img width="1879" height="1032" alt="Screenshot 2025-08-06 212742" src="https://github.com/user-attachments/assets/e41c7886-3b9f-476b-bfa7-02dd1e9c0404" />
+- Done Subnet is created
+
+- Now Create a Internet Gateway
+- Click internet gateway - Create Internate Gateway
+<img width="1899" height="870" alt="Screenshot 2025-08-06 212814" src="https://github.com/user-attachments/assets/6e06d9d6-69e8-48f8-a8b4-425719f6065f" />
+
+- Name Internet Gateway - click - Create Internet Gateway
+<img width="1899" height="861" alt="Screenshot 2025-08-06 212940" src="https://github.com/user-attachments/assets/faf45141-0478-44f7-80a6-060e98bda533" />
+
+- Done IGW is created
+
+- Now attach your IGW to your VPC
+- Click on attach VPC
+<img width="1896" height="811" alt="Screenshot 2025-08-06 213000" src="https://github.com/user-attachments/assets/1ebfdb4b-d0e4-44e5-bd2d-c5b19ff3321a" />
+
+- Select VPC you create in current region - click attach internet gateway
+<img width="1896" height="867" alt="Screenshot 2025-08-06 213025" src="https://github.com/user-attachments/assets/7a8e24dc-59a1-4028-8e82-6ae128e92f56" />
 
