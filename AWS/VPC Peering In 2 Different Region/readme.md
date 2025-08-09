@@ -182,5 +182,74 @@ This document explains the process of setting up an inter-region VPC peering con
 - Done RT is updated
 <img width="1893" height="867" alt="Screenshot 2025-08-06 213600" src="https://github.com/user-attachments/assets/10fd719a-d8f5-4cbf-a888-d949ec4de120" />
 
+**Now we created EC2 instance in both of inter region VPC**
 
+- Now first we create instance in **US-EAST-1**
+ 
+- Go to EC2 - click launch instace
+<img width="1884" height="868" alt="Screenshot 2025-08-06 213934" src="https://github.com/user-attachments/assets/f21d93c2-e4ed-4cdd-bfa1-fd334c86b664" />
 
+- Name instance - select OS 
+<img width="1913" height="964" alt="Screenshot 2025-08-06 214713" src="https://github.com/user-attachments/assets/e6dfb930-5172-469b-9ed8-cb971277e5a8" />
+
+- select instace type (t3 micro) - create new key pair
+<img width="1919" height="623" alt="Screenshot 2025-08-06 214727" src="https://github.com/user-attachments/assets/f91e2613-1573-4c1a-b85a-687d1fee031a" />
+
+- Now edit Network setting
+- select VPC you create - select subnet or automatic apply - auto assign public id (eneble) - name security group - description
+<img width="1226" height="822" alt="Screenshot 2025-08-06 214753" src="https://github.com/user-attachments/assets/134de9cc-8d4b-4c6c-99d4-ffa8492d7af1" />
+
+- Change security inbound rules
+- click add security group rule 2 and add this - default storage - click launch instace
+<img width="1906" height="1079" alt="Screenshot 2025-08-06 214815" src="https://github.com/user-attachments/assets/91ad7da4-ba75-4693-9ef2-c0f8ca92e736" />
+
+- Now we create instance in **AP-SOUTHEAST-1**
+
+- Go to EC2 - click launch instace
+<img width="1889" height="869" alt="Screenshot 2025-08-06 214903" src="https://github.com/user-attachments/assets/a6fdac7c-b818-4c22-89b2-018551f987e0" />
+
+- Name instance - select OS
+<img width="1904" height="1034" alt="Screenshot 2025-08-06 215551" src="https://github.com/user-attachments/assets/f3a6cbaf-296d-4643-8a46-5cd60a8d1c96" />
+
+- select instace type (t3 micro) - create new key pair
+<img width="1919" height="682" alt="Screenshot 2025-08-06 215606" src="https://github.com/user-attachments/assets/c34a7cfb-174c-4453-b19a-dbe526d966a3" />
+
+- Now edit Network setting
+- select VPC you create - select subnet or automatic apply - auto assign public id (eneble) - name security group - description
+<img width="1238" height="839" alt="Screenshot 2025-08-06 215619" src="https://github.com/user-attachments/assets/5e8cd916-2083-4b81-9a57-aeccc438cc37" />
+
+- Change security inbound rules
+- click add security group rule 2 and add this - default storage - click launch instace
+<img width="1227" height="947" alt="Screenshot 2025-08-06 215637" src="https://github.com/user-attachments/assets/082bcbb5-c2e7-4eb0-9767-2af35dfe06fb" />
+
+**Now get peering connection in both servers**
+
+- Go to first **US-EAST-1** region
+- Click peering connection - Create peering connection
+<img width="1894" height="856" alt="Screenshot 2025-08-06 220713" src="https://github.com/user-attachments/assets/602779d7-364a-48ef-a596-2b0fac3d31fd" />
+
+- Name peer connection - select requster vpc id create in another region - my account
+<img width="1890" height="857" alt="Screenshot 2025-08-06 221148" src="https://github.com/user-attachments/assets/d5432951-b553-4eea-8520-d0bb70be89de" />
+
+- Select another region (you create peer in another region so select this)
+- we need accpeter vpc id so jump to anoter region **AP-SOUTHEAST-1** - select vpc and in details copy vpc id and paste accepter block - click create peering connection
+<img width="1896" height="869" alt="Screenshot 2025-08-06 221157" src="https://github.com/user-attachments/assets/a6a8aeb3-84ee-4d70-a762-e58063bb4fc8" />
+
+- Vpc peering connection is done requst sent
+<img width="1896" height="854" alt="Screenshot 2025-08-06 221220" src="https://github.com/user-attachments/assets/9234a9c5-742e-48b4-8240-1856ddf460aa" />
+  
+- Now jump to anoter region and accept this requst **AP-SOUTHEAST-1**
+- show pending acceptance - go to actions - accept requst - done 
+<img width="1892" height="862" alt="Screenshot 2025-08-06 221306" src="https://github.com/user-attachments/assets/703e97d2-1845-46cf-a743-c5c9fe822438" />
+
+- Now once update a route table go to **US-EAST-1** region
+- Go to route table - select routes - routes - edit routes
+<img width="1895" height="868" alt="Screenshot 2025-08-06 221540" src="https://github.com/user-attachments/assets/08cbebb1-d64a-424a-a917-fe42da8eda4f" />
+
+- Add rule - need **AP-SOUTHEAST-1** vpc IPv4 CIDR no. copy - paste into route rule in **US-EAST-1** - select peering connection - slect pcx connection - save changes
+<img width="1898" height="869" alt="Screenshot 2025-08-06 221807" src="https://github.com/user-attachments/assets/944bc014-4708-42a4-b531-470e82a7b556" />
+
+- Done successfully update RT in **US-EAST-1**
+<img width="1896" height="862" alt="Screenshot 2025-08-06 221825" src="https://github.com/user-attachments/assets/d2941259-8a01-4c51-b9fa-9638c7ab2eda" />
+
+-
