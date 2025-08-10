@@ -249,7 +249,22 @@ This document explains the process of setting up an inter-region VPC peering con
 - Add rule - need **AP-SOUTHEAST-1** vpc IPv4 CIDR no. copy - paste into route rule in **US-EAST-1** - select peering connection - slect pcx connection - save changes
 <img width="1898" height="869" alt="Screenshot 2025-08-06 221807" src="https://github.com/user-attachments/assets/944bc014-4708-42a4-b531-470e82a7b556" />
 
-- Done successfully update RT in **US-EAST-1**
+- Done successfully update peering in **US-EAST-1**
 <img width="1896" height="862" alt="Screenshot 2025-08-06 221825" src="https://github.com/user-attachments/assets/d2941259-8a01-4c51-b9fa-9638c7ab2eda" />
 
--
+- Same thing do in **AP-SOUTHEAST-1** region
+- copy IPV4 CIDR no. of **US-EAST-1** - go routes table - select routes - edit routes
+<img width="1893" height="870" alt="Screenshot 2025-08-06 221903" src="https://github.com/user-attachments/assets/9229be61-637a-4b19-8cce-c22e8838ba3f" />
+
+- Add rule - paste IPVR CIDR no. of **AP-SOUTHEAST-1**  - select peering connection - slect pcx connection - save changes
+<img width="1904" height="868" alt="Screenshot 2025-08-06 222004" src="https://github.com/user-attachments/assets/7993d931-3b23-4138-8bcd-db078903b151" />
+
+- Done successfully update peering in **AP-SOUTHEAST-1**
+<img width="1901" height="877" alt="Screenshot 2025-08-06 222019" src="https://github.com/user-attachments/assets/2235ac1f-4afa-4c02-965e-484d5f688b02" />
+
+**Now all setup is done chek peering connection , so you can use terminus or mobaxtrem to connect your instance**
+- Connect both instance in terminus
+- Now  
+
+
+
