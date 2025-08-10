@@ -52,6 +52,11 @@ This document explains the process of setting up an inter-region VPC peering con
 ## 3. Steps to Set Up Inter-Region VPC Peering
 
 **1. set region for VPC A (us-south-1) and create VPC**
+
+**set region for VPC A (US-EAST-1)**
+<img width="1902" height="861" alt="Screenshot 2025-08-09 191417" src="https://github.com/user-attachments/assets/a03899cc-2b69-471d-9768-c97f9c57dce6" />
+
+
 - Go to create VPC
 <img width="1914" height="916" alt="Screenshot 2025-08-06 205718" src="https://github.com/user-attachments/assets/17d27a09-5f66-49b7-9419-e11c27679126" />
 
@@ -263,8 +268,17 @@ This document explains the process of setting up an inter-region VPC peering con
 <img width="1901" height="877" alt="Screenshot 2025-08-06 222019" src="https://github.com/user-attachments/assets/2235ac1f-4afa-4c02-965e-484d5f688b02" />
 
 **Now all setup is done chek peering connection , so you can use terminus or mobaxtrem to connect your instance**
-- Connect both instance in terminus
-- Now  
+- Connect both instance in terminus and use command **PING**
+- Now  here copy 1st **AP-SOUTHEAST-1** servers public ip address - paste into **US-EAST-1** terminus - like (ping <ip address>)
+- And
+- 2nd copy  **US-EAST-1** servers public ip address - paste into **AP-SOUTHEAST-1** terminus - like (ping <ip address>)
 
+- Done peering connection
+- **US-EAST-1**
+<img width="1919" height="1008" alt="Screenshot 2025-08-06 222743" src="https://github.com/user-attachments/assets/327cb287-29df-4d0f-acc0-2e0e5c66f6a8" />
 
+-  **AP-SOUTHEAST-1**
+-  <img width="1919" height="1011" alt="Screenshot 2025-08-06 222751" src="https://github.com/user-attachments/assets/28de8011-8f57-4beb-a8d4-c6a61fff1590" />
 
+# Conclusions:
+Inter-region VPC peering provides a secure and efficient way to connect VPCs across AWS regions using private IP addresses. With proper routing and security group setup, this enables low-latency, high-throughput communication between applications in different geographic locations without exposing data to the internet.
