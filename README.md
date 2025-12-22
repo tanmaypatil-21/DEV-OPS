@@ -204,7 +204,7 @@
 - Tracks performance and identifies issues  
 
 
-## $$\color{red}\textbf{How CEDC Engineer Works}$$
+## $$\color{red}\textbf{How CEDC Engineer Works:}$$
 
 ### 1. IT:Company- 
 - Product Based
