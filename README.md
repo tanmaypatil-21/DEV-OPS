@@ -204,9 +204,16 @@
 - Tracks performance and identifies issues  
 
 
-#  How CEDC engineer works
+#  How CDEC engineer works
 
+### 1. IT:Company- 
+- Product Based
+- Service Based
 
+### 2. Application-
+- Frontend
+- Backend    
+- Databases 
 
 
 
