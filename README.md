@@ -61,9 +61,7 @@
 
 - The Software Development Life Cycle (SDLC) is a structured approach to building software, ensuring quality, efficiency, and reliability. 
 
-<img width="1536" height="1024" alt="ChatGPT Image Dec 24, 2025, 10_46_27 AM" src="https://github.com/user-attachments/assets/75343b56-fedf-4013-ab9c-8e7becf41ab1" />
-
-
+<img width="1536" height="570" alt="ChatGPT Image Dec 24, 2025, 10_46_27 AM" src="https://github.com/user-attachments/assets/81f9c8d5-ae0e-4e86-aae5-34a2b9fe60f1" />
 
 ## 1. Planning
 - Define project goals and scope.
@@ -102,7 +100,6 @@
 
 ---
 ## Waterfall vs Agile
-[image](https://github.com/user-attachments/assets/acffc64b-d686-4cb1-837c-289662d70efd)
 
 
 | Aspect               | Waterfall                              | Agile                                   |
@@ -123,8 +120,7 @@
 - DevOps is all about automating processes, and continuously improving the software development
 - and deployment pipeline to deliver products quickly and reliably
 
-![image](https://github.com/user-attachments/assets/f8ad13b8-f9ab-40b8-bed0-571a473fb45b)
-
+<img width="1536" height="1024" alt="ChatGPT Image Dec 24, 2025, 10_59_15 AM" src="https://github.com/user-attachments/assets/a253c8d5-2c60-4e0d-9687-946b99a58cb3" />
 
 ---
 
