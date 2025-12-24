@@ -61,7 +61,8 @@
 
 - The Software Development Life Cycle (SDLC) is a structured approach to building software, ensuring quality, efficiency, and reliability. 
 
-![image](https://github.com/user-attachments/assets/000076b2-19b5-446c-aa1a-d8bf4b452ca3)
+<img width="1536" height="1024" alt="ChatGPT Image Dec 24, 2025, 10_46_27 AM" src="https://github.com/user-attachments/assets/75343b56-fedf-4013-ab9c-8e7becf41ab1" />
+
 
 
 ## 1. Planning
@@ -101,7 +102,7 @@
 
 ---
 ## Waterfall vs Agile
-![image](https://github.com/user-attachments/assets/acffc64b-d686-4cb1-837c-289662d70efd)
+[image](https://github.com/user-attachments/assets/acffc64b-d686-4cb1-837c-289662d70efd)
 
 
 | Aspect               | Waterfall                              | Agile                                   |
@@ -214,29 +215,3 @@
 - Frontend
 - Backend    
 - Databases 
-
-### 3. SDLC- Software Development Life Cycle-
-- Requirement analysis
-- Planning
-- Design
-- Code
-- Test
-- Deploy
-- Moniter & Maintainance
-<img width="1536" height="1024" alt="ChatGPT Image Dec 24, 2025, 10_46_27 AM" src="https://github.com/user-attachments/assets/0e63de0d-92bb-42ee-b233-dbe2d7e4026f" />
-
-### 4. Method We Use-
-- Waterfall
-- Agile
-- Devops
-
-### 5. On Permises Infrastructure-
-- Servers
-- Network
-- Storage
-- Security
-- Database
-- Power Supply
-- UPS
-- AC for cooling
-
