@@ -1,4 +1,4 @@
-## $$\color{yellow}\textbf{DEV_OPS:}$$
+## $$\color{yellow}\textbf{DEV_OPS}$$
 
 
 
