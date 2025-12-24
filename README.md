@@ -140,10 +140,10 @@
 
 #### On-Premises vs. Cloud Infrastructure
 
-| **Aspect**             | **On-Premises**                                                            | **Cloud**                                                                            |
-|------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| **Location**           | Company premises or data center                                            | Hosted by a cloud provider                                                           |
-| **Capital Expenditure**| High initial investment                                                    | Pay-as-you-go model                                                                  |
+| **Aspect**             | **On-Premises**                                                             | **Cloud**                                                                            |
+|------------------------|---------------------------------------------------------------------------- |--------------------------------------------------------------------------------------|
+| **Location**           | Company premises or data center                                             | Hosted by a cloud provider                                                           |
+| **Capital Expenditure**| High initial investment                                                     | Pay-as-you-go model                                                                  |
 | **Facilities**         | Requires server rooms and cooling                                           | No physical space or cooling needed                                                  |
 | **Maintenance**        | Handled by the organization                                                 | Managed by the provider                                                              |
 | **Scalability**        | Limited by physical space and hardware                                      | Easily scalable                                                                      |
@@ -215,9 +215,28 @@
 - Backend    
 - Databases 
 
+### 3. SDLC- Software Development Life Cycle-
+- Requirement analysis
+- Planning
+- Design
+- Code
+- Test
+- Deploy
+- Moniter & Maintainance
+<img width="1536" height="1024" alt="ChatGPT Image Dec 24, 2025, 10_46_27 AM" src="https://github.com/user-attachments/assets/0e63de0d-92bb-42ee-b233-dbe2d7e4026f" />
 
+### 4. Method We Use-
+- Waterfall
+- Agile
+- Devops
 
-
-
-
+### 5. On Permises Infrastructure-
+- Servers
+- Network
+- Storage
+- Security
+- Database
+- Power Supply
+- UPS
+- AC for cooling
 
