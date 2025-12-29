@@ -7,8 +7,8 @@
 
 ## Linux vs Windows
 
-| Feature               | Linux                                | Windows                              |
-|-----------------------|---------------------------------------|---------------------------------------|
+| Feature               | Linux                                | Windows                               |
+|-----------------------|--------------------------------------|---------------------------------------|
 | Interface             | CLI (Command Line Interface)         | GUI (Graphical User Interface)        |
 | Usability             | Difficult to use                     | Easy to use                           |
 | Source Code           | Open Source                          | Closed Source                         |
@@ -17,7 +17,6 @@
 | Resource Usage        | Lightweight (Consumes Less Resources)| Heavy (Consumes More Resources)       |
 | Security              | More Secure                          | Less Secure                           |
 
-![image](https://github.com/user-attachments/assets/328cfe15-54f4-4dea-a313-801b3eeded64)
 
 
 ## 🧩 Different Types of Operating Systems
@@ -64,7 +63,6 @@ A **server** is a powerful computer or system that provides data, services, or r
 
 **Application/user:** Users interact with the system through varies applications such as office, games, etc. 
 
-![image](https://github.com/user-attachments/assets/af5d4a6e-02e7-4a3e-81fb-fd5d3d4bda98)
 
 ## Distributions of Linux
 - redhat
