@@ -203,7 +203,6 @@ setfacl -x u:username filename
 
 ## Comparison of Hard Link (HL) and Soft Link (SL)
 
-![image](https://github.com/user-attachments/assets/474fcd82-edbb-4ed5-b28d-543a5ff319e2)
 
 | **Aspect**       | **Hard Link (HL)**                                 | **Soft Link (SL)**                             |
 |-------------------|---------------------------------------------------|-----------------------------------------------|
