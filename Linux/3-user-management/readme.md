@@ -46,6 +46,12 @@ use
 ````
 useradd-m username
 ````
+#### To switch local user
+
+````
+su -tony
+````
+
 #### Set or change a user password
 ````
 passwd <username>
