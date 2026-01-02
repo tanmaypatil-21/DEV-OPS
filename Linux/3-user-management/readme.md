@@ -42,14 +42,19 @@ note: using useradd command home dir is not created
 ````
 useradd <username>
 ````
-use
+**use**
 ````
 useradd-m username
 ````
 #### To switch local user
 
 ````
-su -tony
+su - tony
+````
+#### To exit from any user
+
+````
+logout
 ````
 
 #### Set or change a user password
