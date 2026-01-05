@@ -87,7 +87,7 @@ cat /etc/passwd
 
 
 ## /etc/shadow
-#### Fields in `/etc/shadow
+#### Fields in `/etc/shadow`
 1. Username
 2. Encrypted Password
 3. Last time password change
