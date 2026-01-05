@@ -149,6 +149,10 @@ groupadd avengers
 
 **Important Files for Groups**
 
+## /etc/group
+- Stores group information
+````avenger:x:1001:````
+
 ### **Fields in `/etc/group`**  
 
 1. **Group Name** – The name of the group (e.g., `avengers`).  
@@ -156,8 +160,12 @@ groupadd avengers
 3. **Group ID (GID)** – A unique numerical ID for the group.  
 4. **Group Members** – A comma-separated list of users in the group.  
 
-### **Fields in `/etc/gshadow`** 
 
+## /etc/gshadow
+- Stores group information
+````avenger:!::````
+
+### **Fields in `/etc/gshadow`** 
 
 1. **Group Name** – The name of the group (e.g., avengers).
 2. **Encrypted Password** – If a group has a password, it is stored here. (! or * means no password).
