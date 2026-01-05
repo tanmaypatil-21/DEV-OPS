@@ -87,6 +87,7 @@ cat /etc/passwd
 
 
 ## /etc/shadow
+#### Fields in `/etc/shadow
 1. Username
 2. Encrypted Password
 3. Last time password change
@@ -100,7 +101,7 @@ cat /etc/passwd
 
 # change pass policy
 
-| Command                         | Description                                                   |
+| Command                          | Description                                                   |
 |----------------------------------|---------------------------------------------------------------|
 | `chage -l username`              | List current password aging info for the user.                |
 | `chage -M 30 username`           | Set maximum number of days between password changes to 30.    |
