@@ -85,8 +85,10 @@ cat /etc/passwd
 6. **Home Directory** – The default directory for the user.  
 7. **Login Shell** – The shell assigned to the user (e.g., `/bin/bash`).  
 
-
 ## /etc/shadow
+- Stores user password information
+````steve:$y$j9T$SSjbG98mSp2SU5mY6niP21$eqgDk/XRISrPYLMbvtagzW93Ge0XhbbNoYwGa0nOus3:20458:0:99999:7:::````
+
 #### Fields in `/etc/shadow`
 1. Username
 2. Encrypted Password
