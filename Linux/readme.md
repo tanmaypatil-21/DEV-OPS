@@ -162,7 +162,10 @@ lsblk
 du -sh file/dirname
 ````
 ---
-
+- To help chek any command 
+````
+< command > --help
+````
 ## Directory  Structure in  Linux:
 
 -In Linux directory structure   “/”  (slash) is main directory
