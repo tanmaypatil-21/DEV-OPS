@@ -35,6 +35,8 @@ tar -cvf backup.tar /etc
 tar -xvf backup.tar /filename (you want to unzip any folder)
 ```
 
+---
+
 ### 💾 **To create backup with gzip**
 
 ```bash
