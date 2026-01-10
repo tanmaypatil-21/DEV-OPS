@@ -22,6 +22,12 @@ du -sh /etc
 
 ---
 
+### 💾 **To create archive file**
+
+```bash
+tar -cvf backup.tar /etc
+```
+
 ### 💾 **To create backup with gzip**
 
 ```bash
