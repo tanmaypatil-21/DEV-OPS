@@ -223,3 +223,20 @@ ln filename hardlink
 ````
 ln -s filename softlink
 ````
+
+## Special Permission :
+
+**Types of special permission:**
+- SUID ----- Run file with owner permission 
+- SGID ----- Applied on group, if anyone create file inside dir, it has
+- STICKY BIT -----prevent file from deletions
+
+**SUID applied on files:**
+```
+chmod u+s filename
+```
+
+**SGID applied on dir:**
+```
+chmod g+s filename   
+```
