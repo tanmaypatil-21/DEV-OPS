@@ -28,6 +28,13 @@ du -sh /etc
 tar -cvf backup.tar /etc
 ```
 
+
+### 💾 **To unzip file**
+
+```bash
+tar -xvf backup.tar /filename (you want to unzip any folder)
+```
+
 ### 💾 **To create backup with gzip**
 
 ```bash
