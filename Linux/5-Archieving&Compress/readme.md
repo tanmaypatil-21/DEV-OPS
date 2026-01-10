@@ -32,7 +32,7 @@ tar -cvf backup.tar /etc
 ### 💾 **To unzip file**
 
 ```bash
-tar -xvf backup.tar /filename (you want to unzip any folder)
+tar -xvf backup.tar -C /filename (you want to unzip any folder)
 ```
 
 ---
